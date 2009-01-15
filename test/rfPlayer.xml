@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+  <head>
+    <styling>
+      <style id="1" tts:textAlign="center" />
+      <style id="2" tts:color="#FFFFFFFF" />
+      <style id="3" style="2" tts:backgroundColor="#00000000"  />
+      <style id="4" style="2 3" tts:fontSize="18" />
+    </styling>
+  </head>
+  <body>
+    <div xml:lang="en">
+      <p style="1 4" begin="00:00:01.10" end="00:00:04.10">Nota de plat&#259;</p>
+    </div>
+  </body>  
+</tt>
