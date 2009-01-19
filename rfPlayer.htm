@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>rfPlayer</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" charset="utf-8" href="rfPlayer.css" />
+	</head>
+	<body bgcolor="#000000">
+  <div id="layout">
+  <div id="container">
+    <div id="header">
+    <br />
+    <br />
+    <h1>rfPlayer v.1.0.0-090119</h1>
+    </div>
+    <div id="center">
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="rfPlayer">
+        <script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript">
+          swfobject.registerObject("rfPlayer", "9.0.0", "expressInstall.swf");
+        </script>
+  			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="320" height="270" id="rfPlayer">
+  				<param name="movie" value="rfPlayer.swf" />
+  				<param name="autoplay" value="false" />
+          <param name="allowFullScreen" value="true" />
+          <param name="FlashVars" value="&amp;flvimg=rfPlayer.jpg&amp;flvplay=false&amp;flvskin=rfPlayerSkin.swf&amp;flvskinbga=0.9&amp;flvskinbg=0x000000&amp;flvolume=0.5&amp;flvurl=rfPlayer.flv&amp;flvcapson=false&amp;flvcapsurl=rfPlayer.xml" />
+  				<!--[if !IE]>-->
+  				<object type="application/x-shockwave-flash" data="rfPLayer.swf" width="320" height="270">
+            <param name="autoplay" value="false" />
+            <param name="allowFullScreen" value="true" />
+            <param name="FlashVars" value="&amp;flvimg=rfPlayer.jpg&amp;flvplay=false&amp;flvskin=rfPlayerSkin.swf&amp;flvskinbga=0.9&amp;flvskinbg=0x000000&amp;flvolume=0.5&amp;flvurl=rfPlayer.flv&amp;flvcapson=false&amp;flvcapsurl=rfPlayer.xml" />
+  				<!--<![endif]-->
+  					You must have JavaScript and Flash enabled to view this content
+  				<!--[if !IE]>-->
+  				</object>
+  				<!--<![endif]-->
+  			</object>
+  		</div>
+    </div>
+    <div id="footer">
+      <br />
+      <br />
+      <br />
+      &copy; 2009 Radu Maier
+    </div>
+	</body>
+</html>

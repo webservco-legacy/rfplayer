@@ -1,0 +1,85 @@
+/* ********** ********** ********** ********** ********** LAYOUT START ********** ********** ********** ********** ********** */
+html, body  {margin:0; padding:0; border:0; height: 100%;}
+#layout     {position: absolute; left: 50%; top: 50%; width: 980px; height: 582px; margin-left: -490px; margin-top: -291px;}
+#container  {margin:0px; width:980px; margin:auto;}
+#header     {margin: 0px; padding: 0px; border: 0px; height:100px;}
+#center     {margin: 0px; padding: 0px; border: 0px; height: 382px;}
+#footer     {clear: both; margin: 0px; padding: 0px 0px 0px 0px; border: 0px; height: 100px;}
+/* ********** ********** ********** ********** ********** LAYOUT END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** GENERAL START ********** ********** ********** ********** ********** */
+form {display: inline; margin: 0px; padding: 0px;}
+img  {margin: 0px; padding: 0px; border: 0px;}
+h1   {margin: 0px 0px 0px 10px; padding: 5px 0px 0px 0px; line-height: 130%; font-size: 1.3em;}
+h2   {margin: 5px 0px 5px 0px; line-height: 130%; font-size: 1.2em;}
+h3   {margin: 5px 0px 5px 0px; line-height: 130%; font-size: 1.1em;}
+h4   {margin: 5px 0px 5px 0px; line-height: 130%; font-size: 1em;}
+/* ********** ********** ********** ********** ********** GENERAL END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** LINKS START ********** ********** ********** ********** ********** */
+a:link, a:visited {background: transparent; text-decoration: none; font-weight: bold;}
+a:hover, a:active {background: transparent; text-decoration: none; font-weight: bold;}
+/* ********** ********** ********** ********** ********** LINKS END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** HEADER START ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** HEADER END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** CONTENT START ********** ********** ********** ********** ********** */
+#page_scroll         {margin: 0px 0px 0px 10px; padding: 0px; border: 0px; width: 30px; height: 30px;}
+#page_content        {margin: 0px; padding: 10px 0px 10px 10px; border: 0px; width: 520px; height: 360px; clear: both; overflow: auto;}
+* html #page_content {width: 530px; height: 380px;}
+#scroll_up           {display: block; margin: 0px; padding: 0px; border: 0px; width: 30px; height: 15px;}
+#scroll_down         {display: block; margin: 0px; padding: 0px; border: 0px; width: 30px; height: 15px;}
+.porto_1             {width: 68%; float: left; clear: none; text-align: right; padding-top: 10px;}
+.porto_2             {width: 30%; float: right; clear: none;}
+.porto_3             {clear: both;}
+.contact_1           {width: 48%; float: left; clear: none; text-align: right; font-weight: bold;}
+.contact_2           {width: 50%; float: right; clear: none;}
+.contact_3           {clear: both; font-size: 1px; height: 2px;}
+#player              {text-align: center; padding-top: 25px;}
+/* ********** ********** ********** ********** ********** CONTENT END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** LEFT START ********** ********** ********** ********** ********** */
+/* ********** ********** ********** ********** ********** LEFT END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** RIGHT START ********** ********** ********** ********** ********** */
+/* ********** ********** ********** ********** ********** RIGHT END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** FOOTER START ********** ********** ********** ********** ********** */
+.video {width: 140px; margin: 15px 10px 5px 10px; display: inline; float: left;}
+/* ********** ********** ********** ********** ********** FOOTER END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** COLORS START ********** ********** ********** ********** ********** */
+html, body    {background-color: #000000; color: #EEEEEE;}
+a:link,a:visited             {color: #FE0000;}
+a:hover,a:active             {color: #FE0000;}
+a.menu:link,a.menu:visited   {color: #FE0000;}
+a.menu:hover,a.menu:active   {color: #FE0000;}
+
+/* ********** ********** ********** ********** ********** COLORS END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** BORDERS START ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** BORDERS END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** FONTS START ********** ********** ********** ********** ********** */
+html, body,
+table, input, select           {font-family: Verdana, serif; font-size: 12px; text-align: center;}
+#layout                        {text-align: center;}
+#center                        {text-align: center;}
+a:link, a:visited,
+a:hover, a:active              {background: transparent; text-decoration: none; font-weight: bold;}
+/* ********** ********** ********** ********** ********** FONTS END ********** ********** ********** ********** ********** */
+
+/* ********** ********** ********** ********** ********** TEST COLORS ********** ********** ********** ********** ********** */
+/*
+#layout       {background-color: #FFFFFF;}
+#header         {background-color: #00ff00;}
+#center       {background-color: #0000ff;}
+#footer       {background-color: #ff0000;}
+*/
+
+
+
+
