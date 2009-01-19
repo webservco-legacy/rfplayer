@@ -1,0 +1,2 @@
+[] poster image in full screen
+[] video: play/pause on click

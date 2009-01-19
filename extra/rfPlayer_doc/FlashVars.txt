@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+[description]           [name]       [value]                    [example]                  [default]
+[poster image file]     [flvimg]     [URL relative or absolute] [http://image.jpg]         [rfPlayer.jpg]
+[autoplay]              [flvplay]    [BOOLEAN]                  [true]                     [false]
+[skin file]             [flvskin]    [URL relative or absolute] [http://skin.swf skin.swf] [rfPlayerSkin.swf]
+[skin background alpha] [flvskinbga] [NUMBER 0.0-1.0]           [0.5]                      [1.0]
+[skin background color] [flvskinbg]  [UINT 0xRRGGBB]            [0xFF0000]                 [0x333333]
+[volume]                [flvolume]   [NUMBER 0-1]               [0.5]                      [1]
+[video source]          [flvurl]     [URL relative or absolute] [http://file.flv file.flv] [rfPlayer.flv]
+[captions enabled]      [flvcapson]  [BOOLEAN]                  [true]                     [false]
+[captions file]         [flvcapsurl] [URL relative or absolute] [http://file.xml file.xml] [rfPlayer.xml]
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+flvimg=rfPlayer.jpg
+flvplay=false
+flvskin=rfPlayerSkin.swf
+flvskinbga=0.9
+flvskinbg=0x000000
+flvolume=0.5
+flvurl=rfPlayer.flv
+flvcapson=false
+flvcapsurl=rfPlayer.xml
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+&amp;flvimg=rfPlayer.jpg&amp;flvplay=false&amp;flvskin=rfPlayerSkin.swf&amp;flvskinbga=0.9&amp;flvskinbg=0x000000&amp;flvolume=0.5&amp;flvurl=rfPlayer.flv&amp;flvcapson=false&amp;flvcapsurl=rfPlayer.xml
+-----------------------------------------------------------------------------------------------------------------------------------------------------

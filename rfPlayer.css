@@ -1,10 +1,10 @@
 /* ********** ********** ********** ********** ********** LAYOUT START ********** ********** ********** ********** ********** */
 html, body  {margin:0; padding:0; border:0; height: 100%;}
-#layout     {position: absolute; left: 50%; top: 50%; width: 980px; height: 582px; margin-left: -490px; margin-top: -291px;}
+#layout     {position: absolute; left: 50%; top: 50%; width: 980px; height: 572px; margin-left: -490px; margin-top: -286px;}
 #container  {margin:0px; width:980px; margin:auto;}
-#header     {margin: 0px; padding: 0px; border: 0px; height:100px;}
-#center     {margin: 0px; padding: 0px; border: 0px; height: 382px;}
-#footer     {clear: both; margin: 0px; padding: 0px 0px 0px 0px; border: 0px; height: 100px;}
+#header     {margin: 0px; padding: 0px; border: 0px; height:50px;}
+#center     {margin: 0px; padding: 0px; border: 0px; height: 472px;}
+#footer     {clear: both; margin: 0px; padding: 0px 0px 0px 0px; border: 0px; height: 50px;}
 /* ********** ********** ********** ********** ********** LAYOUT END ********** ********** ********** ********** ********** */
 
 /* ********** ********** ********** ********** ********** GENERAL START ********** ********** ********** ********** ********** */
