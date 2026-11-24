@@ -25,7 +25,7 @@ sources of Flash CS3. To try it, put an FLV video next to the page and name it i
 ## How it was built
 
 From the release copies of 2009, turned into git in 2026 (4 commits), the dates kept. The last commit before
-this README sets LF line endings and indents with spaces.
+this README sets LF line endings and indents with spaces (not in `swfobject.js` and `extra/rfPlayer_src/`).
 
 ## Third-party code
 
